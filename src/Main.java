@@ -1,9 +1,9 @@
 
 void main() {
-    randomizerUsage();
+    randomizer();
 }
 
-void randomizerUsage() {
+void randomizer() {
     Randomizer fabric = new Randomizer(5);
     System.out.println(fabric.getFinalNumber());
 }
