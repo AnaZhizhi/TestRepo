@@ -1,5 +1,6 @@
 
 void main() {
+    randomizerUsage();
 }
 
 void randomizerUsage() {
