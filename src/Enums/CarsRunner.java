@@ -6,7 +6,7 @@ public class CarsRunner {
 //        System.out.println(newCar.numberOfDoors);
 //        System.out.println(newCar.isEuropean());
 
-//        Bmw bmw = new Bmw(4,Fueltype.Petrol);
+        Bmw bmw = new Bmw();
 //        bmw.isEuropean();
     }
 }

@@ -1,6 +1,8 @@
 
 void main() {
     randomizer();
+    Person newPerson = new Person(12,"asdasd","asdasd", "male");
+    newPerson.getUserCar().isElectric();
 }
 
 void randomizer() {

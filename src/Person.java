@@ -12,6 +12,8 @@
 /// Main.java- ში დაპრინტე ამ ორი სხვადასხვა ობიექტის fullName-ები დაახლოებით ასეთი ფორმატით -- "ლუკა კილასონია -> ანა ჟიჟილაშვილი"
 /// Main.java -ში დაპრინტე ასეთი რამე "ჯამური ასაკი = "ამ ტექსტის ადგილას უნდა იყოს ასაკების ჯამი""
 /// Main.java -ში დაპრინტე ორივეს კონტრ გენდერი
+import  Enums.Car;
+import  Enums.Bmw;
 
 public class Person {
     int age;
@@ -42,5 +44,8 @@ public class Person {
         }
 
     }
-}
 
+    public Car getUserCar() {
+        return new Bmw();
+    }
+}
